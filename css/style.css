@@ -1,0 +1,63 @@
+header{    
+    height: 83px;
+    background-color: #131313;
+}
+
+.header{
+    padding-left: 6.33%;
+    padding-right: 6.33%;
+    padding-top: 23px;   
+}
+
+.menu{
+    display: inline-block;
+}
+
+.logo{
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.menu-item{
+    display: inline;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-item:hover {
+    color: #E3B873;
+    transition: 0.5s ease;
+}
+
+.phone{
+    font-family: FuturaDemiC;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
+.buttom{
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu-buttom{
+    padding: 13px 33px;
+}
+
+.header-contact{
+    text-align: right;
+}
