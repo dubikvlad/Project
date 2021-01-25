@@ -1,11 +1,11 @@
 
 header{    
-    height: 83px;
+    height: 10vh;
     background-color: #131313;
 }
 .menu {
-    padding-left: 6.33%;
-    padding-right: 6.33%;
+    padding-left: 5.7%;
+    padding-right: 5.7%;
     display: flex;
     height: 100%;
     align-items: center;
@@ -67,4 +67,26 @@ button{
 
 .menu-button{
     padding: 13px 33px;
+}
+
+.main-block{
+    height: 90vh;
+    width: 100%;
+}
+
+.insta{
+    height: 100%;
+    width: 5.7%;
+    background-color: #131313;
+    float: left;
+}
+
+.heading{
+    float: left;
+    height: 100%;
+    width: 94.3%;
+    background-image: url(../img/PNG/image4.3.png);
+    background-size: cover;
+    
+    
 }
