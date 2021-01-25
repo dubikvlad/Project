@@ -1,21 +1,20 @@
+
 header{    
     height: 83px;
     background-color: #131313;
 }
-
-.header{
+.menu {
     padding-left: 6.33%;
     padding-right: 6.33%;
     display: flex;
-    align-items: center;
     height: 100%;
-    top: 50%;
+    align-items: center;
+    justify-content: space-between;                
 }
 
-.menu{
-    display: inline-block;
-    vertical-align: center;
-    justify-content: center;
+.menu-item {
+    text-align:center;
+    color: white;   
 }
 
 .logo{
@@ -26,35 +25,22 @@ header{
     color: #E3B873;
 }
 
-
-.nav-menu{
-    /*margin-left: auto;
-    margin-right: auto;*/
-    margin: 0 auto;
-    display: inline-block;
-    overflow : hidden;
-    
+nav{
+    flex-grow: 0.5;
 }
 
-.menu-item:hover {
-    color: #E3B873;
-    transition: 0.5s ease;
-}
-
-.menu-item{
-    display: inline;
+.nav-item{
+    display: inline-flex;
     font-size: 14px;
     color: #FFFFFF;
+    font-family: FuturaBookC;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
-    padding-left: auto;
-    
+}
 
-   /* top: 50%;
-    left: 50%;
-    margin-right: auto;
-    transform: translate(-50%, -50%) }*/
+.nav-item:hover {
+    color: #E3B873;
+    transition: 0.5s ease;
 }
 
 .phone{
@@ -63,6 +49,7 @@ header{
     line-height: 16px;
     text-decoration-line: underline;
     color: #E3B873;
+    padding-right: 45px;
 }
 
 button{
@@ -81,9 +68,3 @@ button{
 .menu-button{
     padding: 13px 33px;
 }
-
-.header-contact{
-    float: right;
-    padding-left: auto;
-}
-
