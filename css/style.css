@@ -95,10 +95,13 @@ button{
     float: left;
     height: 100%;
     width: 94.3%;
-    background-image: url(../img/PNG/image4.3.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/PNG/image4.3.png); 
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
+    background-position: center;  
 }
+
+
 
 .insta-block{
     display: inline-block;

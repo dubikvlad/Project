@@ -21,5 +21,12 @@
         height: 95vh;
     }
     
+    .insta{
+        display: none;
+    }
 
+    .heading{
+        width: 100%;
+        background-position: center;
+    }
 }
