@@ -29,6 +29,12 @@ nav{
     flex-grow: 0.5;
 }
 
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav-item{
     display: inline-flex;
     font-size: 14px;
@@ -79,6 +85,10 @@ button{
     width: 5.7%;
     background-color: #131313;
     float: left;
+
+    height: 100%;
+    vertical-align: middle;
+    position: relative;
 }
 
 .heading{
@@ -87,6 +97,36 @@ button{
     width: 94.3%;
     background-image: url(../img/PNG/image4.3.png);
     background-size: cover;
-    
-    
+    background-repeat: no-repeat;   
+}
+
+.insta-block{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin-top: -71px;
+    margin-left: -8px;
+}
+
+.before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}    
+.insta-text{
+    writing-mode: vertical-rl;
+    color: #E3B873;
+    text-transform: uppercase;
+    font-family: FuturaDemiC;   
+}
+
+.helper{
+    height: 51px;
+    width: 1.5px;
+    background-color:  #E3B873;
+    margin-left: 50%;
+    margin-right: 50%;
+
 }
