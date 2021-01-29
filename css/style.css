@@ -133,3 +133,18 @@ button{
     margin-right: 50%;
 
 }
+
+.scroll{
+    
+    background-color: #131313;
+    font-family: Yeseva One;
+    font-size: 14px;
+    color:  white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 17%;
+    height: 7vh;
+    align-items: center;
+}
