@@ -145,6 +145,75 @@ button{
     left: 0;
     bottom: 0;
     width: 17%;
-    height: 7vh;
+    height: 6.5vh;
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.scroll-text{
+    margin-right: 5%;
+}
+
+.yellow-text{
+    color: #E3B873;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: Yeseva One;
+    font-size: 40px;
+    color: white;
+}
+
+.heading-text{
+    margin-top: 27.4vh;
+    margin-left: 4.4%;
+}
+
+.heading-text_paragraph{
+    color:white;
+    font-family: FuturaBookC;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 1vh;
+}
+
+.heading-bottons{
+    margin-top: 1vh;
+}
+
+.heading-bottons_transparent{
+    height: 51px;
+    width: 207px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.heading-bottons_calculate{
+    height: 51px;
+    width: 207px;
+    border: 1px solid #E3B873;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: FuturaDemiC;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    margin-right: 1%;
+}
+
+
+
+
+
+
+.mobile{
+    display: none;
 }
