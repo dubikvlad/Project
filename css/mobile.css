@@ -18,7 +18,9 @@
     }
 
     .main-block{
-        height: 95vh;
+        width: 100%;
+        height: 58vh;
+        min-height: 425px;
     }
     
     .insta{
@@ -42,6 +44,7 @@
         display: inline;
         max-width: 85%;
     }
+
 
     .heading-text{
         margin-top: 9vh;
@@ -67,6 +70,42 @@
         width: 95.6%;
         margin-top: 5%;
     }
+
+    .comleted-projects{
+        display: block;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        text-align: center;
+        padding-top: 36px;
+    }
+
+    .comleted-projects_text{
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .comleted-projects_text_p{
+        font-family: FuturaBookC;
+        font-size: 15px;
+        line-height: 158.48%;
+    }
+
+    .comleted-projects_menu_list{
+        display: none;
+    }
+
+    .comleted-projects_line{
+        width: 92px;
+        color: #E3B873;
+    }
+
+
+
+
+
+
+
 
     .pc{
         display: none;
