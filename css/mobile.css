@@ -77,6 +77,7 @@
         padding-right: 2.5%;
         text-align: center;
         padding-top: 36px;
+        height: auto;
     }
 
     .comleted-projects_text{
@@ -95,14 +96,35 @@
         display: none;
     }
 
+    .comleted-projects_mobile{
+        margin-top: 36px;
+    }
     
+    .comleted-projects_mobile-picture{
+        width: 100%;
+    }
+
+    .comleted-projects_table{
+        margin-top: 36.45px;
+    }
+
+    .online-control_video{
+        height: auto;
+    }
+
+    /*.online-control_video_img{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/PNG/work_mobile.png) no-repeat;
+        background-size: 100%;
+    }*/
 
 
-
-
-
-
-
+    .online-control_video_img{
+        width: 100%;
+        height: auto;
+    }
 
     .pc{
         display: none;

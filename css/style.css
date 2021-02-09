@@ -355,7 +355,7 @@ h2{
     padding-bottom: 35px;
 }
 
-.round-button{
+.round-button_right{
     border-radius: 50%;
     padding: 0;
     box-shadow: none;
@@ -422,16 +422,14 @@ h2{
     margin-top: 31px;
 }
 
+
 .online-control_video_img{
     height: 434px;
     width: 817px;
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/PNG/work.png)
+    background-color:#000;
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
 }
-
-
-
-
-
 
 
 .mobile{
