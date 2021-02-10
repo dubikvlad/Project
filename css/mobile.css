@@ -112,19 +112,24 @@
         height: auto;
     }
 
-    /*.online-control_video_img{
-        width: 100%;
-        height: auto;
-        display: inline-block;
-        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/PNG/work_mobile.png) no-repeat;
-        background-size: 100%;
-    }*/
-
 
     .online-control_video_img{
         width: 100%;
         height: auto;
+        min-width: 240px;
     }
+
+    .first-form{
+        display: block;
+    }
+
+
+
+
+
+
+
+
 
     .pc{
         display: none;
