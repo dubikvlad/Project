@@ -84,6 +84,7 @@
         width: 100%;
         padding-top: 0px;
         padding-left: 0px;
+        padding-right: 0px;
     }
 
     .comleted-projects_text_p{
@@ -121,12 +122,64 @@
 
     .first-form{
         display: block;
+        margin-top: 0px;
+        background-color: #131313;
+        padding-top: 28px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        height: auto;
+    }
+
+    .first-form_helper{
+        display: none;
+    }
+
+    .first-form_line{
+        margin-top: 0;
+    }
+
+    .first-form_text{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .first-form_content{
+        display: block;
+    }
+
+    .form_small-text{
+        font-family: FuturaBookC;
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .input-light{
+        width: 100%;
+        background-color: #131313;
+        font-size: 18px;
+        line-height: 138.72%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    label[for=agree]{
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;  
     }
 
 
+    input[type=submit]{
+        width: 100%;
+    }
 
-
-
+    .submit_button{
+        width: 100%;
+        padding-top: 63px;
+        margin-bottom: -25px;
+    }
 
 
 
