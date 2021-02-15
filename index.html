@@ -141,12 +141,12 @@
 
             <div class="online-control">
                 <h3 class="online-control_heading">online control</h3>
-                <div class="online-control_symbol">
-                    <div class="online-control_helperL"></div>
+                <div class="symbol">
+                    <div class="symbol_helperL"></div>
                     <div>
-                        <img class="online-control_image" src="./img/PNG/camera.png" alt="">
+                        <img class="symbol_image" src="./img/PNG/camera.png" alt="">
                     </div>                 
-                    <div class="online-control_helperR"></div>
+                    <div class="symbol_helperR"></div>
                 </div>
                     
                 <div class="online-control_video">
@@ -165,11 +165,11 @@
             <form class="first-form_content" action="">
                 <div class="">
                     <label for="GET-name" class="form_small-text">Name:</label><br>
-                    <input class="input-light" type="text" placeholder="What is your name:">
+                    <input class="input-light" type="text" placeholder="What is your name:" required>
                 </div>  
                 <div class="">
                     <label for="GET-phone" class="form_small-text">Phone:</label><br>
-                    <input type="text" class="input-light" placeholder="Your phone number:">
+                    <input type="tel" class="input-light" placeholder="Your phone number:" pattern="[\+]{0,1}[0-9]{2,3}[0-9]{2,3}[0-9]{6,8}" required>
                 </div>
                 <div class="pc">  
                     <input type="submit" value="submit">
@@ -187,6 +187,29 @@
             </form>
             <div class="submit_button mobile">  
                 <input type="submit" value="submit">
+            </div>
+        </div>
+
+        <div class="types-of-repair">
+            <h3 class="types-of-repair_heading">types of repair</h3>
+            <div class="symbol">
+                <div class="symbol_helperL"></div>
+                <div>
+                    <img class="symbol_image" src="./img/PNG/tools.png" alt="">
+                </div>                 
+                <div class="symbol_helperR"></div>
+            </div>
+
+            <div class="types-of-repair-content">
+                <div class="types-of-repair-content-description">
+                    <img src="./img/PNG/redecorating.png" alt="">
+                </div>
+                <div class="types-of-repair-content-description center">
+                    <img src="./img/PNG/overhaul.png" alt="">
+                </div>
+                <div class="types-of-repair-content-description">
+                    <img src="./img/PNG/designer_repair.png" alt="">
+                </div>
             </div>
         </div>
     </main>
