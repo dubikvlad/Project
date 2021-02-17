@@ -73,8 +73,8 @@
 
     .comleted-projects{
         display: block;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
         text-align: center;
         padding-top: 36px;
         height: auto;
@@ -125,8 +125,8 @@
         margin-top: 0px;
         background-color: #131313;
         padding-top: 28px;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
         height: auto;
     }
 
@@ -178,8 +178,65 @@
     .submit_button{
         width: 100%;
         padding-top: 63px;
-        margin-bottom: -25px;
+        margin-bottom: -30px;
     }
+
+    .types-of-repair{
+        margin-top: 56px;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+        height: auto;
+    }
+
+    .types-of-repair-content{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+
+    .types-of-repair-content-description{
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        max-width: auto;
+    }
+
+    .mobile-picture{
+        max-width: 100%;
+    }
+
+    .types-of-repair-content-description_text{
+        height: 241px;
+        width: 270px;
+        margin-left: 0px;
+        margin-top: -150px;
+    }
+
+    .types-of-repair-content-description_heading{
+        font-size: 15px;
+        padding-top: 21px;
+    }
+
+    .marked-list{
+        font-size: 13px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .types-of-repair-content-description_text-price{
+        font-size: 15px;
+        height: 40px;
+        width: 190px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+
 
 
 
