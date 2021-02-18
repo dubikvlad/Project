@@ -649,15 +649,172 @@ input[type=checkbox] {
 }
 
 .second-form{
-    width: 100%;
+    width: auto;
     margin-top: 60px;
     height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.second-form-text{
+    position: relative;
+    width: auto;
+    flex-grow: 1;
+    min-width: 715px;
 }
 
 .second-form-text_img{ 
     margin-left: -250px;
     height: 645px;
+    position: absolute;
+    width: 1006px;
+    
+   
 }
+
+.second-form_round {
+    position: relative;
+    width: 636px;
+    height: 636px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    margin-left: -125px;
+    shape-outside: circle(50%);
+    object-fit: cover;
+    float: left;
+    margin-right: calc(1em + 2vw);
+  }
+  
+  .second-form_round::after {
+    content: "";
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+    background: linear-gradient(90deg, transparent, transparent, #f7d7a3 , #E3B873);
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+.second-form_img{
+    position: absolute;
+    background-image: url(../img/PNG/building.png);
+    height: 645px;
+    width: 1006px;
+    left: -290px;
+    z-index: 1;
+    top: -40px;
+    background-size: cover;
+}
+
+.second-form-text_list{
+    position: relative;
+    margin-top: 30px;
+    font-family: FuturaBookC;
+    font-size: 18px;
+    line-height: 21px;
+    color: #363636;
+    padding-top: 30px;
+    z-index: 3;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.second-form-text_list li{
+    padding-bottom: 100px;
+}
+
+.second-form-block{
+    padding-right: 5.5%;
+    padding-top: 30px;
+}
+
+.second-form_heper{
+    width: 506px;
+    height: 509px;
+    background-color: black;
+ 
+}
+
+.second-form_heper-text{
+    display: block;
+    font-family: FuturaDemiC;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 28px;
+}
+
+.second-form_content{
+    display: block;
+    width: 408px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-form_small-text{
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.second-input-light{
+    width: 100%;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
+}
+
+.second-input-light::-webkit-input-placeholder{
+    color: white;
+}
+
+.second-form_agree{
+    display: flex;
+    color: #fff;
+    font-family: FuturaBookC;
+    margin-left: -13px;
+    margin-top: 16px;
+}
+
+label[for=agree-2]{
+    font-family: FuturaBookC;
+    font-size: 16px;
+    line-height: 22px;
+    color:  #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.second-form_content-label{
+    margin-top: 45px;
+}
+
+.second-form_content-submit{
+    float: right;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .mobile{
     display: none;
