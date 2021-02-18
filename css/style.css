@@ -722,6 +722,7 @@ input[type=checkbox] {
     z-index: 3;
     padding-top: 60px;
     width: 100%;
+    max-width: 950px;
 }
 
 .second-form-text_list li{
