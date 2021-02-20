@@ -243,7 +243,7 @@
     .gallery-mobile{
         padding-left: 4.5%;
         padding-right: 4.5%;
-        
+        text-align: center;
     }
 
     .gallery-mobile-heading{
@@ -254,9 +254,12 @@
 
     .gallery-mobile-image{
         width: 100%;
+        margin-top: 30px;
     }
 
-
+    .gallery-mobile-image_img{
+        width: 100%;
+    }
 
 
     .pc{
