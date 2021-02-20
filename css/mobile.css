@@ -128,10 +128,16 @@
         padding-left: 4.5%;
         padding-right: 4.5%;
         height: auto;
+        position: relative;
     }
 
     .first-form_helper{
         display: none;
+    }
+
+    .first-form_helper-mobile{
+        width: 100%;
+        height: 50px;
     }
 
     .first-form_line{
@@ -176,9 +182,11 @@
     }
 
     .submit_button{
-        width: 100%;
+        width: 91%;
         padding-top: 63px;
-        margin-bottom: -30px;
+        position: absolute;
+        bottom: -25px;
+        margin-right: 4.5%
     }
 
     .types-of-repair{
@@ -232,11 +240,21 @@
     }
 
 
+    .gallery-mobile{
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+        
+    }
 
+    .gallery-mobile-heading{
+        text-align: center;        
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-
-
-
+    .gallery-mobile-image{
+        width: 100%;
+    }
 
 
 
@@ -246,6 +264,6 @@
     }
 
     .mobile{
-        display: inline-block;
+        display: block;
     }
 }
