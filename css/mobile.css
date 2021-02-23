@@ -205,8 +205,9 @@
     .types-of-repair-content-description{
         width: 100%;
         height: auto;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
         max-width: auto;
+        
     }
 
     .mobile-picture{
@@ -214,8 +215,9 @@
     }
 
     .types-of-repair-content-description_text{
-        height: 241px;
-        width: 270px;
+        height: auto;
+        width: 80%;
+        max-width: 280px;
         margin-left: 0px;
         margin-top: -150px;
     }
@@ -236,7 +238,7 @@
         height: 40px;
         width: 190px;
         line-height: 40px;
-        margin-top: 10px;
+        bottom: -20px;
     }
 
 
@@ -244,6 +246,8 @@
         padding-left: 4.5%;
         padding-right: 4.5%;
         text-align: center;
+        padding-top: 30px;
+        position: relative;
     }
 
     .gallery-mobile-heading{
@@ -261,7 +265,50 @@
         width: 100%;
     }
 
+    .gallery-mobile_helper{
+        width: 104.5%;
+        height: 30%;
+        background-color: #131313;
+        bottom: -1px;
+        left: -4.5%;
+        position: absolute;
+        z-index: -1;
+    }
 
+    .design-project{
+        padding-top: 30px;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+        background-color: #131313;
+    }
+
+    .white-text-mobile{
+        color: #FFFFFF;
+    }
+
+    .team{
+        background-color: #131313;
+        padding-left: 7vw;
+        padding-right: 7vw;
+    }
+
+    .team-cards{
+        display: block;
+    }
+
+    .team-cards-pofile{
+        width: calc(100% - 35px);
+        height: auto;
+        margin-right: 0;
+        margin-left: auto;
+        margin-bottom: 30px;
+    }
+
+    .team-cards-pofile_img{
+        width: 100%;
+        height: auto;
+    }
+    
     .pc{
         display: none;
     }

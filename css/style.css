@@ -418,7 +418,9 @@ h2{
     height: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .online-control_video{
@@ -470,6 +472,17 @@ h2{
     margin-left: auto;
     margin-right: auto;
     margin-top: 34.5px;
+}
+
+.text{
+    font-family: FuturaBookC;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #363636;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .first-form_content{
@@ -605,7 +618,7 @@ input[type=checkbox] {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     width: 330px;
-    height: 286px;
+    height: auto;
     margin-top: -127px;
     margin-left: auto;
     margin-right: auto;
@@ -619,6 +632,7 @@ input[type=checkbox] {
     color: #959595;
     padding-left: 47px;
     margin-top: 13px;
+    padding-bottom: 41px;
 }
 
 .types-of-repair-content-description_heading{
@@ -645,7 +659,8 @@ input[type=checkbox] {
     border: inherit;  
     height: 54px;
     width: 228px;
-    margin-top: 21px;
+    position: absolute;
+    bottom: -27px;
 }
 
 .second-form{
@@ -820,7 +835,7 @@ label[for=agree-2]{
 
 .gallery-pc-menu{
     max-width: 300px;
-    padding-top: 120px;
+    padding-top: 110px;
     padding-left: 6.8%;
     }
 
@@ -877,8 +892,341 @@ label[for=agree-2]{
     padding-top: 113px;
 }
 
+.design-project{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.design-project_text{
+    margin-top: 24px;
+}
+
+.design-project_helper{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #131313;
+    bottom: -1px;
+    z-index: -1;
+    margin-left: -5%;
+}
+
+.steps{    
+    background-color: #131313;
+    padding-left: 7vw;
+    padding-right: 7vw; 
+    padding-top: 50px; 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+}
+
+.steps-main{
+    width: 27%;
+    
+}
 
 
+.steps-main_heading_work{
+    display: block;
+    font-family: FuturaDemiC;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin-bottom: 18px;
+}
+
+.steps-content{
+    margin-top: 90px;
+}
+
+.steps-content_number{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+}
+
+.steps-content_heading{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-transform: uppercase;    
+    color: #E3B873;
+    display: block;  
+    margin-top: 22px;
+}
+
+.steps-content_text{
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 16px;
+}
+
+.steps-menu{
+    width: 74%;
+    padding-left: 10%;
+    max-width: 805px;
+}
+
+.steps-menu_table{
+    width: 100%;
+    text-align: left;
+    margin-top: 41px;
+}
+
+.steps-menu_table-number{
+    display: block;
+    font-family: Yeseva One;   
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    text-decoration: underline solid #E3B873;
+    max-width: 136px;
+    padding-bottom: 10px;
+}
+
+.steps-menu_table-text{
+    display: block;
+    max-width: 136px;
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.steps-menu_table-end{
+   margin-right: 0;
+   margin-left: auto;
+}
+
+.steps-menu_table-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.steps-menu_img{
+    width: 100%;
+    height: 377px;
+    background-image: url(../img/PNG/steps.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team{
+    position: relative;
+    background-color: rgb(250, 250, 250);
+}
+
+.team_text{
+    position: relative;
+    display: block;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    font-family: FuturaBookC;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.team_helper{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: -1px;
+    background-color: #131313;
+    z-index: 0;
+}
+
+.team-cards{
+    max-width: 1065px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    
+}
+
+.team-cards-pofile{
+    position: relative;
+    width: 272px;
+    height: 358px;
+}
+
+.team-cards-pofile::after{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #E3B873;
+    box-shadow: 0 0 15px 5px rgba(227, 184, 115, 0.2);
+    top: -35px;
+    left: -35px;
+}
+
+.pr-man::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/PNG/idea.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.designer::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/PNG/Group15.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.foreman::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/PNG/portfolio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-cards-pofile_description{
+    position: relative;
+    width: 233px;
+    height: 137px;
+    bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+.team-cards-pofile_description-text-white{
+    height: 93px;
+    width: 100%;
+    text-align: center;
+}
+
+.team-cards-pofile_description-text-yellow{    
+    background-color: #E3B873;
+    height: 44px;
+    width: 100%;    
+}
+
+.team-cards-pofile_description-text-yellow_text{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 15px;
+    display: block;
+}
+
+.team-cards-pofile_description-text-white_name{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #181818;
+    display: block;
+    padding-top: 22px;
+}
+
+.team-cards-pofile_description-text-white_prof{
+    font-family: FuturaBookC;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #959595;
+    display: block;
+    padding-top: 9px;
+}
+
+.white-text{
+    position: relative;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.team_text2{
+    position: relative;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_text2_line{
+    box-sizing: border-box;
+    height: 1.54px;
+    width: 55px;
+    background-color: #E3B873;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_text2_text{
+    padding-top: ;
+    display: block;
+    max-width: 558px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: FuturaBookC;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #363636;
+    padding-top: 30px;
+}
+
+.clients{
+    padding-top: 90px;
+    background-color: rgb(250, 250, 250);
+}
+
+.clients_text{
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: FuturaBookC;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #363636;
+    padding-top: 20px;
+}
+
+.cliets-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 .mobile{
