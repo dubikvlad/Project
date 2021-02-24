@@ -290,6 +290,7 @@
         background-color: #131313;
         padding-left: 7vw;
         padding-right: 7vw;
+        padding-bottom: 5px;
     }
 
     .team-cards{
@@ -308,6 +309,28 @@
         width: 100%;
         height: auto;
     }
+
+    .contacts-mob{        
+        background-color: #131313;
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+        background-image: none;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .contacts-map{
+        margin-top: 0;
+        width: 100%;
+        height: auto
+    }
+
+    .contacts-map_map{
+        height: ;
+    }
+
+
+
     
     .pc{
         display: none;

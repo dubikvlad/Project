@@ -600,10 +600,10 @@ input[type=checkbox] {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    max-width: 1236px;
+    max-width: 1300px;
     margin-top: 27px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -1191,8 +1191,6 @@ label[for=agree-2]{
 }
 
 .team_text2_text{
-    padding-top: ;
-    display: block;
     max-width: 558px;
     margin-left: auto;
     margin-right: auto;
@@ -1207,6 +1205,10 @@ label[for=agree-2]{
 .clients{
     padding-top: 90px;
     background-color: rgb(250, 250, 250);
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    padding-bottom: 27px;
 }
 
 .clients_text{
@@ -1222,11 +1224,202 @@ label[for=agree-2]{
     padding-top: 20px;
 }
 
-.cliets-cards{
+.clients-cards{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 1800px;
+    margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+.clients-cards-card{
+    height: 428px;
+    width: 376px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    position: relative;
+    padding-left: 20px;
+    padding-right: 32px;
+    padding-top: 24px;
+    margin-top: 40px;
+}
+
+.clients-cards-card_info{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: -27px;
+    width: 294px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.round-img{
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+}
+
+.clients-cards-card-top{
+    display: flex;
+}
+
+.clients-cards-card_name{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    padding-left: 23px;
+    padding-top: 15px;
+}
+
+.clients-cards-card_text{
+    margin-top: 22px;
+    width: 324px;
+    font-family: FuturaBookC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.clients-cards-card_info-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.border-r{
+    border-right: 1px solid #FFFFFF;
+}
+
+.clients-cards-card_info-text_img{
+    width: 32px;
+    height: 31px;
+    padding-left: 17px;
+}
+
+.clients-cards-card_info-text_text{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_helper{
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 300px;
+}
+
+.contacts{
+    height: 954px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(../img/PNG/contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.contacts_contact{
+    display: block;
+    max-width: 580px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-top: 275px;
+}
+
+.contacts-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 71px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.contacts-icons_img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+
+.contacts-map{
+    width: 925px;
+    height: 465px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 43px;
+}
+
+.contacts-map_map{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 133px;
+    background-color: #181818;
+}
+
+
+
+
+
 
 
 .mobile{
