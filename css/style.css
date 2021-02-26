@@ -1403,12 +1403,98 @@ label[for=agree-2]{
 }
 
 .form3{
+    position: absolute;
+    height: 445px;
+    max-width: 883px;
+    width: 100%;
+    top: -222.5px;
+    left: 50%;
+    transform:translate(-50%, 0);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #131313;
+}
 
+.form3_text{
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 34px;
 }
 
 
+.form3_content{
+    display: block;
+    width: 517px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.form3_small-text{
+    font-family: FuturaBookC;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
 
+.form3-input-light{
+    width: 100%;
+    font-family: FuturaDemiC;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: #131313;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
+}
+
+.form3-input-light::-webkit-input-placeholder{
+    color: white;
+}
+
+.form3_agree{
+    display: flex;
+    color: #fff;
+    font-family: FuturaBookC;
+    margin-left: -13px;
+    margin-top: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label[for=agree-3]{
+    font-family: FuturaBookC;
+    font-size: 16px;
+    line-height: 22px;
+    color:  #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form3_content-label{
+    margin-top: 45px;
+}
+
+.form3_content-submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.form3_content-flex{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

@@ -324,6 +324,7 @@
     }
 
     .contacts-map{
+        position: relative;
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;;
@@ -344,6 +345,23 @@
         width: 39px;
         height: 39px;
     }
+
+    .form3{
+        position: relative;
+        top: 0;
+        margin-bottom: 40px;
+        height: auto;
+    }
+
+    .form3_content{
+        width: 100%;
+    }
+
+    .form3_content-flex{
+        display: block;
+    }
+
+
 
     
     .pc{
