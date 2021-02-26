@@ -290,7 +290,8 @@
         background-color: #131313;
         padding-left: 7vw;
         padding-right: 7vw;
-        padding-bottom: 5px;
+        padding-bottom: 1px;
+        margin-top: -1px;
     }
 
     .team-cards{
@@ -310,26 +311,39 @@
         height: auto;
     }
 
-    .contacts-mob{        
+    .contacts{        
         background-color: #131313;
         padding-left: 4.5%;
         padding-right: 4.5%;
         background-image: none;
         height: auto;
         margin-top: 0;
+        margin-top: -1px;
+        padding-bottom: 38px;
+        width: auto;
     }
 
     .contacts-map{
-        margin-top: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;;
         width: 100%;
         height: auto
     }
 
-    .contacts-map_map{
-        height: ;
+ 
+    .contacts_contact{
+        padding-top: 42px;
     }
 
+    .contacts-icons{
+        width: 99px;
+    }
 
+    .contacts-icons_img{
+        width: 39px;
+        height: 39px;
+    }
 
     
     .pc{

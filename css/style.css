@@ -1060,18 +1060,20 @@ label[for=agree-2]{
 
 .team-cards{
     max-width: 1065px;
+  
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
-    
+    margin-right: auto;  
+    padding-right: 1px;  
 }
 
 .team-cards-pofile{
     position: relative;
     width: 272px;
-    height: 358px;
+    height: 414px;
+    margin-top: 60px;
 }
 
 .team-cards-pofile::after{
@@ -1083,6 +1085,10 @@ label[for=agree-2]{
     box-shadow: 0 0 15px 5px rgba(227, 184, 115, 0.2);
     top: -35px;
     left: -35px;
+}
+
+.pr-man{
+    margin-left: 35px;
 }
 
 .pr-man::after{
@@ -1323,7 +1329,22 @@ label[for=agree-2]{
 .main_helper{
     background-color: rgb(250, 250, 250);
     width: 100%;
-    height: 300px;
+    height: 400px;
+    display: flex;
+}
+
+.main_helper-left{
+    width: 50%;
+    background-image: url(../img/PNG/bckgr_dark.png);
+    background-repeat: no-repeat;
+    background-position: 0% 23%;
+}
+
+.main_helper-right{
+    width: 50%;
+    background: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9) ), url(../img/PNG/bckgr_light.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .contacts{
@@ -1369,7 +1390,7 @@ label[for=agree-2]{
 }
 
 .contacts-map{
-    width: 925px;
+    max-width: 925px;
     height: 465px;
     margin-left: auto;
     margin-right: auto;
@@ -1381,8 +1402,9 @@ label[for=agree-2]{
     height: auto;
 }
 
+.form3{
 
-
+}
 
 
 
