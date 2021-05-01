@@ -6,3 +6,4 @@
 
 <a href="https://dubikvlad.github.io/Project/">GITHUB-pages</a>
 
+![alt text](https://github.com/dubikvlad/Project/blob/main/screen-shoots/screenshootPC.jpg)
